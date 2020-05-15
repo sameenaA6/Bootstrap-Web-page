@@ -1,0 +1,17 @@
+$(document).ready(function(){
+   alert("HI");
+   });
+$("#b1").click(function(){
+    if($("#b1").text()=="Hide"){
+        $("#b1").text("Show");
+        $("#b2").hide(1200);
+    }else{
+        $("#b1").text("Hide");
+        $("#b2").show(1200);
+    }
+    });
+$(document).ready(function(){
+    $("#b1").click(function(){
+        $("#div2").text("99"));
+    });
+     });
